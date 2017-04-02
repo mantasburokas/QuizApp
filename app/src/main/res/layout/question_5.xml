@@ -3,9 +3,62 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Q5"/>
+        android:orientation="horizontal">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/qLetterMargin"
+            android:text="@string/q"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/qLetterSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/qMarginBottom"
+            android:layout_marginRight="@dimen/qMarginRight"
+            android:text="@string/q5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/qSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/answerGroupMarginLeft"
+        android:layout_marginRight="@dimen/answerGroupMarginRight"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/q5Answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/a51" />
+
+        <CheckBox
+            android:id="@+id/q5Answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/a53" />
+
+        <CheckBox
+            android:id="@+id/q5Answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/a52" />
+
+        <CheckBox
+            android:id="@+id/q5Answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="@string/a54" />
+    </LinearLayout>
 </LinearLayout>

@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">General Knowledge Quiz</string>
+
+    <string name="q">Q</string>
+
+    <string name="q1">Which word means to put off until another time?</string>
+    <string name="a11">Past</string>
+    <string name="a12">Postpone</string>
+    <string name="a13">Permanent</string>
+    <string name="a14">Present</string>
+
+    <string name="q2">What is the Scientific name for the fear of homosexuality/sameness?</string>
+    <string name="a21">Autophobia</string>
+    <string name="a22">Algophobia</string>
+    <string name="a23">Homophobia</string>
+
+    <string name="q3">With which activity is Osamma Bin Laden associated?</string>
+    <string name="a31">Terrorism</string>
+    <string name="a32">Peace Demonstrator</string>
+    <string name="a33">Environmental Protestor</string>
+    <string name="a34">Animal Activist</string>
+
+    <string name="q4">What is the name of the galaxy of which our sun is a member?</string>
+    <string name="a41">Milky Way Galaxy</string>
+    <string name="a42">Sunflower Galaxy</string>
+    <string name="a43">Cigar Galaxy</string>
+    <string name="a44">Comet Galaxy</string>
+
+    <string name="q5">Which of the following companies are computer system manufacturers?</string>
+    <string name="a51">Apple</string>
+    <string name="a52">Acer</string>
+    <string name="a53">BMW</string>
+    <string name="a54">Starbucks</string>
+
+    <string name="finishButton">Finish</string>
 </resources>

@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="qLetterMargin">16dp</dimen>
+    <dimen name="qLetterSize">40sp</dimen>
+
+    <dimen name="qSize">20sp</dimen>
+    <dimen name="qMarginRight">16dp</dimen>
+    <dimen name="qMarginBottom">32dp</dimen>
+
+    <dimen name="answerGroupMarginLeft">50dp</dimen>
+    <dimen name="answerGroupMarginRight">16dp</dimen>
+
+    <dimen name="finishButtonMarginTop">16dp</dimen>
+</resources>

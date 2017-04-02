@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/toastContainer"
     android:layout_width="match_parent"
@@ -6,20 +6,29 @@
     android:orientation="vertical"
     tools:context="com.app.quiz.quizapp.MainActivity">
 
-    <include layout="@layout/question_1" />
-
-    <include layout="@layout/question_2" />
-
-    <include layout="@layout/question_3" />
-
-    <include layout="@layout/question_4" />
-
-    <include layout="@layout/question_5" />
-
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="calculateScore"
-        android:text="Finish" />
+        android:orientation="vertical">
 
-</LinearLayout>
+        <include layout="@layout/question_1" />
+
+        <include layout="@layout/question_2" />
+
+        <include layout="@layout/question_3" />
+
+        <include layout="@layout/question_4" />
+
+        <include layout="@layout/question_5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/finishButtonMarginTop"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="calculateScore"
+            android:text="@string/finishButton"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>
