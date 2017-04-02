@@ -1,12 +1,12 @@
-package com.app.quiz.quizapp;
+package com.app.quiz.quizapp.Questions;
 
 import android.widget.RadioButton;
 
-public class Question1 implements Question {
+public class QuestionRadioButton implements Question {
 
     private RadioButton radioButton;
 
-    public Question1(RadioButton radioButton) {
+    public QuestionRadioButton(RadioButton radioButton) {
         this.radioButton = radioButton;
     }
 

@@ -10,9 +10,7 @@
     <string name="a14">Present</string>
 
     <string name="q2">What is the Scientific name for the fear of homosexuality/sameness?</string>
-    <string name="a21">Autophobia</string>
-    <string name="a22">Algophobia</string>
-    <string name="a23">Homophobia</string>
+    <string name="hintQ2">Answer</string>
 
     <string name="q3">With which activity is Osamma Bin Laden associated?</string>
     <string name="a31">Terrorism</string>

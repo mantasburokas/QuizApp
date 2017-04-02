@@ -1,15 +1,15 @@
-package com.app.quiz.quizapp;
+package com.app.quiz.quizapp.Questions;
 
 import android.widget.CheckBox;
 
-public class Question5 implements Question {
+public class QuestionTwoCheckBoxes implements Question {
 
     private CheckBox correctCheckBox1;
     private CheckBox incorrectCheckBox1;
     private CheckBox correctCheckBox2;
     private CheckBox incorrectCheckBox2;
 
-    public Question5(CheckBox correctCheckBox1, CheckBox incorrectCheckBox1, CheckBox correctCheckBox2, CheckBox incorrectCheckBox2) {
+    public QuestionTwoCheckBoxes(CheckBox correctCheckBox1, CheckBox incorrectCheckBox1, CheckBox correctCheckBox2, CheckBox incorrectCheckBox2) {
         this.correctCheckBox1 = correctCheckBox1;
         this.incorrectCheckBox1 = incorrectCheckBox1;
         this.correctCheckBox2 = correctCheckBox2;
